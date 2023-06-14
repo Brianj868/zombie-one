@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ZombieOne.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\brian\OneDrive\Documents\GitHub\zombie-one\ZombieOne\Intermediate\Build\Win64\ZombieOneEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\brian\OneDrive\Documents\GitHub\zombie-one\ZombieOne\Intermediate\Build\Win64\UnrealEditor\Development\ZombieOne\ZombieOne.init.gen.cpp.obj"
+"C:\Users\brian\OneDrive\Documents\GitHub\zombie-one\ZombieOne\Intermediate\Build\Win64\UnrealEditor\Development\ZombieOne\ZombieOneGameModeBase.gen.cpp.obj"
+"C:\Users\brian\OneDrive\Documents\GitHub\zombie-one\ZombieOne\Intermediate\Build\Win64\UnrealEditor\Development\ZombieOne\ZombieOne.cpp.obj"
+"C:\Users\brian\OneDrive\Documents\GitHub\zombie-one\ZombieOne\Intermediate\Build\Win64\UnrealEditor\Development\ZombieOne\ZombieOneGameModeBase.cpp.obj"
+"C:\Users\brian\OneDrive\Documents\GitHub\zombie-one\ZombieOne\Intermediate\Build\Win64\UnrealEditor\Development\ZombieOne\Default.rc2.res"
+/OUT:"C:\Users\brian\OneDrive\Documents\GitHub\zombie-one\ZombieOne\Intermediate\Build\Win64\UnrealEditor\Development\ZombieOne\UnrealEditor-ZombieOne.lib"
