@@ -1197,3 +1197,218 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.06.16-03.26.13:055][127]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
 [2023.06.16-03.26.13:123][128]LogPlayLevel: Display: Destroying online subsystem :Context_1
 [2023.06.16-03.27.37:608][102]LogDerivedDataCache: C:/Users/brian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.216 and deleted 0 files with total size 0 MiB. Scanned 1869 files in 1855 folders with total size 44 MiB.
+[2023.06.16-03.38.15:553][439]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.16-03.38.15:560][439]LogContentBundle: [Container: Untitled_1] Generating Streaming for 0 Content Bundles.
+[2023.06.16-03.38.15:577][439]LogWorldPartition: Display: GenerateStreaming started...
+[2023.06.16-03.38.15:577][439]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.06.16-03.38.15:577][439]LogWorldPartition: Display: GetPartitionedActors took 32 us (total: 75 us)
+[2023.06.16-03.38.15:736][439]LogWorldPartition: Display: GenerateStreaming took 159 ms (total: 367 ms)
+[2023.06.16-03.38.15:737][439]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.16-03.38.15:737][439]PIE: New page: PIE session: Untitled_1 (Jun 15, 2023, 1:38:15 PM)
+[2023.06.16-03.38.15:738][439]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2023.06.16-03.38.15:800][439]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062525s)
+[2023.06.16-03.38.15:800][439]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.062583s)
+[2023.06.16-03.38.15:800][439]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.16-03.38.15:801][439]LogAIModule: Creating AISystem for world Untitled_1
+[2023.06.16-03.38.15:801][439]LogWorldPartition: ULevel::OnLevelLoaded(Untitled_1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.06.16-03.38.15:801][439]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.06.16-03.38.15:801][439]LogWorldPartition: UWorldPartition::Initialize(Asset=Untitled_1, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.06.16-03.38.15:805][439]LogContentBundle: [Container: Untitled_1] Creating new contrainer.
+[2023.06.16-03.38.15:805][439]LogWorldPartition: Display: WorldPartition initialize took 3 ms (total: 502 ms)
+[2023.06.16-03.38.15:805][439]LogPlayLevel: PIE: World Init took: (0.005334s)
+[2023.06.16-03.38.15:812][439]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.06.16-03.38.15:813][439]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.06.16-03.38.15:813][439]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.16-03.38.15:813][439]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.16-03.38.15:813][439]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.16-03.38.15:813][439]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.16-03.38.15:813][439]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.16-03.38.15:813][439]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.16-03.38.15:813][439]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.16-03.38.15:813][439]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.16-03.38.15:813][439]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.16-03.38.15:813][439]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.16-03.38.15:813][439]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.16-03.38.15:816][439]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.16-03.38.15:839][439]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2023.06.16-03.38.15:839][439]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.16-03.38.15:839][439]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.16-03.38.15:839][439]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.16-03.38.15:840][439]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.06.16-03.38.15:840][439]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2023.06.16-03.38.15:842][439]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.06.16-03.38.15:842][439]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.06.16-03.38.15:842][439]LogInit: FAudioDevice initialized.
+[2023.06.16-03.38.15:842][439]LogAudio: Display: Audio Device (ID: 3) registered with world 'Untitled_1'.
+[2023.06.16-03.38.15:846][439]LogLoad: Game class is 'GameModeBase'
+[2023.06.16-03.38.15:846][439]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2023.06.15-20.38.15
+[2023.06.16-03.38.15:847][439]LogWorld: Bringing up level for play took: 0.000785
+[2023.06.16-03.38.15:850][439]LogOnline: OSS: Created online subsystem instance for: :Context_2
+[2023.06.16-03.38.15:851][439]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=50729.972 Y=64864.033 Z=27642.203
+[2023.06.16-03.38.15:851][439]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(25), CellsToLoad(0), CellsToUnload(0)
+[2023.06.16-03.38.15:851][439]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=50729.972 Y=64864.033 Z=27642.203,P=-0.000000 Y=-133.843694 R=0.000000
+[2023.06.16-03.38.15:906][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/F/3O/LQ9LHAPSPR2ZQON593WMVL.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:906][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/E/W5/RZKDGOKU0HOUR9XR3OORWP.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:906][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/E/QA/56OJ68IEIQK6AZD998V9AC.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:906][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/E/AJ/7C8JC8FV0F2O6Y16RNPPG5.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:906][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/E/9D/DB7HESC98L3P1C0EXJ9VNN.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:906][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/E/5J/220CT5CUS77FQ1Y0UX22G1.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:906][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/E/35/J016PIHOM9QMV09QAXSB71.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:906][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/E/2T/LW1MREPFXBPLJCYEDJ1QEP.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:906][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/E/0N/MJ50OORWK9B5CCTZI745ZN.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:906][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/D/AK/1ZC2T0VGQ3SM7U375JQUCB.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:906][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/D/1C/J2AQ1EOULFDGSSVCOF21IT.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:906][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/C/V2/79GVO9T8L33D7PL17IOCH8.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:906][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/C/UL/XUI40KZY0W19J25ADZ69HZ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:906][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/XN/M3T3ZY3QR38M3HXIVWF08Z.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:906][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/EF/AVEFB64683AQF9CJYB93DM.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:906][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/A/8F/UILAR7KZF01SB5K1TYIOQU.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/A/5T/8AVXKOA01TLOBAI26Z84M0.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/8/VM/KITGMOBNCKMQD53U939GKS.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/8/9E/VK298XRD5A11VYGHFC41A9.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/8/8P/TLD3VX5ZWRDBTWGHZBD6B2.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/8/67/SCIVTASLB1G49QJSTRVO2P.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/V1/G2IAL67Q51RDGY0JARYZFC.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/Q1/OIHEIVHOC755KY4AIIXZHW.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/F4/M3J0ZJ0BV28M5Q99SOM48Q.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/2P/WBW9CAOQGGZICLNBCFDJSB.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/6/WR/5KB6IQ3V0QMTIH5VVAM109.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/6/OY/I7W1YSC8BUMH1JML1SHYXU.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/6/N5/WGVE0AJGDUHGENADZV58M8.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/6/MN/ZRKV9F579IVFLFFQFWCNP1.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/6/CV/ZVNWWCCOSQTHJQ00OL87PP.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/5/SE/IMNTWHEYXWFLFNO0VMZCOH.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/5/PI/Q9H1B01GIQ3UAILDCXPKFD.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/5/ON/R223RRK3MH511F5YGGE4W1.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/5/L9/WMO74VATJJT97G0ETQHDV9.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/XH/833TP0FSFQQBWAZGJXKH6A.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/U7/26ZHDTM3CBW86ZMVC0MC81.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/JP/IUFBX0244AWDZMZZHDKTKO.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/JP/OEPEEFQ7A0CTPWQWFEJ9PV.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/CM/ZZ4QMO3QO20LLLWIKB49QY.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/CK/3U7ZZLZZY4U2JGYD4CD484.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/3V/5E7YRRLHOPYOL7E03MPXZX.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/27/MBLYVKKRPXBTRA7FIYDZJJ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/Z1/J1XJFLPOFLBJRCPMFGF6C5.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/US/DINUB3VE6STDFAC2VZ35GN.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/8P/VNJEVDB5K2D6L9KMNKBN6A.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/YK/NH0RQ83YOTSLK0KQ86IP4N.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/JA/4Y1UNG2T4GPFYJ7KPEDYVV.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/DZ/XTTNN5AZ8XZMSVE9GQR3TC.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/8A/NXI3LY5DSH0JCF4MEEBM4X.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/4V/V25VGP3M2HPQ1P7Y76DI4R.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/1T/ZL0Y1EEN97U5ZPYDIC5SAL.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/MS/53FFO8N8QMR5EZSU2BXG3T.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/BZ/AQH36VQUL6RRNO1G8N89X8.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/9R/JT69U2ZIH2ZJJUXUASV0F0.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/Z0/SDO6T5HIB7O50OBHISZCIX.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/XB/YH1MJRWSG6K7YKOSQWYADL.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/UP/XJC4J420XXOSGPB2F4H7ED.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/UK/3OKX6C10NWGHVWYQ7NH21G.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/T3/SQJ7JELAW5XSTP1JS5QJMH.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/K2/C74PLGXI2R9LW6IVE6AVMG.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/G8/NGJ7QFQVTY01UZE0GQ5QX3.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/DN/XR8P0OHQ2UMD5YU47C20EK.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/AB/1QCGE91T5EQQ9UTKOHSCH9.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.06.16-03.38.15:907][439]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/77/QTK2TOFAKUCC4OH745GDVF.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.06.16-03.38.15:996][439]LogShaderCompilers: Display: ================================================
+[2023.06.16-03.38.15:996][439]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.06.16-03.38.15:996][439]LogShaderCompilers: Display: Total job queries 83, among them cache hits 6 (7.23%)
+[2023.06.16-03.38.15:996][439]LogShaderCompilers: Display: Tracking 77 distinct input hashes that result in 70 distinct outputs (90.91%)
+[2023.06.16-03.38.15:996][439]LogShaderCompilers: Display: RAM used: 0.72 MB (0.00 GB) of 2048.00 MB (2.00 GB) budget. Usage: 0.04%
+[2023.06.16-03.38.15:996][439]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.06.16-03.38.15:996][439]LogShaderCompilers: Display: Shaders Compiled: 4
+[2023.06.16-03.38.15:996][439]LogShaderCompilers: Display: Jobs assigned 4, completed 4 (100.00%)
+[2023.06.16-03.38.15:996][439]LogShaderCompilers: Display: Time job spent in pending queue: average 0.10 s, longest 0.10 s
+[2023.06.16-03.38.15:996][439]LogShaderCompilers: Display: Job execution time: average 4.93 s, max 6.78 s
+[2023.06.16-03.38.15:996][439]LogShaderCompilers: Display: Job life time (pending + execution): average 5.03 s, max 6.89
+[2023.06.16-03.38.15:996][439]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 6.89 s
+[2023.06.16-03.38.15:996][439]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.06.16-03.38.15:996][439]LogShaderCompilers: Display: Average processing rate: 0.58 jobs/sec
+[2023.06.16-03.38.15:996][439]LogShaderCompilers: Display: Total thread time: 12.13 s
+[2023.06.16-03.38.15:996][439]LogShaderCompilers: Display: Total thread preprocess time: 1.10 s
+[2023.06.16-03.38.15:996][439]LogShaderCompilers: Display: Percentage time preprocessing: 9.03%
+[2023.06.16-03.38.15:996][439]LogShaderCompilers: Display: Effective parallelization: 1.76 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.06.16-03.38.15:996][439]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2023.06.16-03.38.15:996][439]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 4.43 sec, max 4.43 sec, min 4.43 sec)
+[2023.06.16-03.38.15:996][439]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 2.96 sec, max 2.96 sec, min 2.96 sec)
+[2023.06.16-03.38.15:996][439]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 2.66 sec, max 2.66 sec, min 2.66 sec)
+[2023.06.16-03.38.15:996][439]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 2.07 sec, max 2.07 sec, min 2.07 sec)
+[2023.06.16-03.38.15:996][439]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2023.06.16-03.38.15:996][439]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 36.53% of total time (compiled    1 times, average 4.43 sec, max 4.43 sec, min 4.43 sec)
+[2023.06.16-03.38.15:996][439]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 24.43% of total time (compiled    1 times, average 2.96 sec, max 2.96 sec, min 2.96 sec)
+[2023.06.16-03.38.15:996][439]LogShaderCompilers: Display:                                                 FLumenCardVS - 21.96% of total time (compiled    1 times, average 2.66 sec, max 2.66 sec, min 2.66 sec)
+[2023.06.16-03.38.15:996][439]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 17.07% of total time (compiled    1 times, average 2.07 sec, max 2.07 sec, min 2.07 sec)
+[2023.06.16-03.38.15:996][439]LogShaderCompilers: Display: ================================================
+[2023.06.16-03.38.16:111][439]PIE: Server logged in
+[2023.06.16-03.38.16:112][439]PIE: Play in editor total start time 0.552 seconds.
+[2023.06.16-03.38.21:514][732]LogMeshUtilities: Finished distance field build in 5.6s - 126x126x126 sparse distance field, 1.8Mb total, 0.1Mb always loaded, 50% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.38.22:056][762]LogMeshUtilities: Finished distance field build in 6.1s - 126x126x126 sparse distance field, 2.0Mb total, 0.1Mb always loaded, 55% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.38.22:416][784]LogMeshUtilities: Finished distance field build in 6.5s - 126x126x126 sparse distance field, 2.3Mb total, 0.1Mb always loaded, 66% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.38.23:160][828]LogMeshUtilities: Finished distance field build in 7.2s - 126x126x126 sparse distance field, 2.6Mb total, 0.1Mb always loaded, 75% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.38.23:529][850]LogMeshUtilities: Finished distance field build in 7.6s - 126x126x126 sparse distance field, 3.1Mb total, 0.1Mb always loaded, 94% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.38.25:252][954]LogMeshUtilities: Finished distance field build in 1.9s - 126x126x126 sparse distance field, 1.5Mb total, 0.1Mb always loaded, 39% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.38.27:389][ 82]LogMeshUtilities: Finished distance field build in 4.1s - 126x126x126 sparse distance field, 2.6Mb total, 0.1Mb always loaded, 74% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.38.30:047][241]LogMeshUtilities: Finished distance field build in 4.2s - 126x126x126 sparse distance field, 1.5Mb total, 0.1Mb always loaded, 42% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.38.30:263][254]LogMeshUtilities: Finished distance field build in 4.5s - 126x126x126 sparse distance field, 1.6Mb total, 0.1Mb always loaded, 44% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.38.30:286][256]LogMeshUtilities: Finished distance field build in 4.5s - 126x126x126 sparse distance field, 1.7Mb total, 0.1Mb always loaded, 47% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.38.30:644][272]LogMeshUtilities: Finished distance field build in 4.8s - 126x126x126 sparse distance field, 2.0Mb total, 0.1Mb always loaded, 57% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.38.32:508][363]LogMeshUtilities: Finished distance field build in 2.0s - 126x126x126 sparse distance field, 1.6Mb total, 0.1Mb always loaded, 42% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.38.32:652][371]LogMeshUtilities: Finished distance field build in 2.2s - 126x126x126 sparse distance field, 1.6Mb total, 0.1Mb always loaded, 45% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.38.34:253][461]LogMeshUtilities: Finished distance field build in 1.7s - 126x126x126 sparse distance field, 1.9Mb total, 0.1Mb always loaded, 52% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.38.36:486][584]LogMeshUtilities: Finished distance field build in 2.9s - 126x126x126 sparse distance field, 3.3Mb total, 0.1Mb always loaded, 100% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.38.38:217][688]LogMeshUtilities: Finished distance field build in 2.4s - 126x126x126 sparse distance field, 2.1Mb total, 0.1Mb always loaded, 59% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.38.39:543][767]LogMeshUtilities: Finished distance field build in 2.2s - 126x126x126 sparse distance field, 1.5Mb total, 0.1Mb always loaded, 40% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.38.40:960][852]LogMeshUtilities: Finished distance field build in 3.6s - 126x126x126 sparse distance field, 2.4Mb total, 0.1Mb always loaded, 69% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.38.42:709][957]LogMeshUtilities: Finished distance field build in 2.7s - 126x126x126 sparse distance field, 1.8Mb total, 0.1Mb always loaded, 48% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.38.43:895][ 28]LogMeshUtilities: Finished distance field build in 3.9s - 126x126x126 sparse distance field, 2.3Mb total, 0.1Mb always loaded, 67% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.38.45:689][136]LogMeshUtilities: Finished distance field build in 2.8s - 126x126x126 sparse distance field, 1.8Mb total, 0.1Mb always loaded, 48% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.38.45:907][149]LogMeshUtilities: Finished distance field build in 3.0s - 126x126x126 sparse distance field, 1.9Mb total, 0.1Mb always loaded, 53% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.38.49:070][339]LogMeshUtilities: Finished distance field build in 3.3s - 126x126x126 sparse distance field, 3.3Mb total, 0.1Mb always loaded, 100% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.38.49:628][372]LogMeshUtilities: Finished distance field build in 1.6s - 126x126x28 sparse distance field, 0.7Mb total, 0.0Mb always loaded, 100% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.38.51:286][472]LogMeshUtilities: Finished distance field build in 3.3s - 126x126x126 sparse distance field, 2.2Mb total, 0.1Mb always loaded, 63% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.38.53:138][583]LogMeshUtilities: Finished distance field build in 2.8s - 126x126x126 sparse distance field, 1.7Mb total, 0.1Mb always loaded, 48% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.38.54:279][651]LogMeshUtilities: Finished distance field build in 4.0s - 126x126x126 sparse distance field, 2.3Mb total, 0.1Mb always loaded, 65% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.38.55:590][730]LogMeshUtilities: Finished distance field build in 2.4s - 126x126x126 sparse distance field, 1.4Mb total, 0.1Mb always loaded, 39% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.38.55:934][751]LogMeshUtilities: Finished distance field build in 2.7s - 126x126x126 sparse distance field, 1.7Mb total, 0.1Mb always loaded, 46% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.38.57:841][865]LogMeshUtilities: Finished distance field build in 2.1s - 126x126x126 sparse distance field, 1.4Mb total, 0.1Mb always loaded, 39% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.38.57:962][872]LogMeshUtilities: Finished distance field build in 2.2s - 126x126x126 sparse distance field, 1.5Mb total, 0.1Mb always loaded, 42% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.38.59:394][958]LogMeshUtilities: Finished distance field build in 1.5s - 126x126x126 sparse distance field, 1.5Mb total, 0.1Mb always loaded, 40% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.39.01:126][ 62]LogMeshUtilities: Finished distance field build in 2.4s - 126x126x126 sparse distance field, 1.5Mb total, 0.1Mb always loaded, 42% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.39.01:152][ 64]LogMeshUtilities: Finished distance field build in 2.4s - 126x126x126 sparse distance field, 1.6Mb total, 0.1Mb always loaded, 43% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.39.04:458][262]LogMeshUtilities: Finished distance field build in 3.3s - 126x126x126 sparse distance field, 2.2Mb total, 0.1Mb always loaded, 61% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.39.06:090][360]LogMeshUtilities: Finished distance field build in 4.9s - 126x126x126 sparse distance field, 3.3Mb total, 0.1Mb always loaded, 100% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.39.07:424][440]LogMeshUtilities: Finished distance field build in 2.4s - 126x126x126 sparse distance field, 1.5Mb total, 0.1Mb always loaded, 40% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.39.07:783][461]LogMeshUtilities: Finished distance field build in 2.8s - 126x126x126 sparse distance field, 1.7Mb total, 0.1Mb always loaded, 47% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.39.09:794][582]LogMeshUtilities: Finished distance field build in 2.2s - 126x126x126 sparse distance field, 1.5Mb total, 0.1Mb always loaded, 40% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.39.11:410][679]LogMeshUtilities: Finished distance field build in 3.8s - 126x126x126 sparse distance field, 2.6Mb total, 0.1Mb always loaded, 75% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.39.13:387][797]LogMeshUtilities: Finished distance field build in 3.1s - 126x126x126 sparse distance field, 1.8Mb total, 0.1Mb always loaded, 51% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.39.13:640][813]LogMeshUtilities: Finished distance field build in 3.3s - 126x126x126 sparse distance field, 1.9Mb total, 0.1Mb always loaded, 54% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.39.16:884][  7]LogMeshUtilities: Finished distance field build in 3.4s - 126x126x126 sparse distance field, 2.2Mb total, 0.1Mb always loaded, 62% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.39.17:135][ 22]LogMeshUtilities: Finished distance field build in 3.7s - 126x126x126 sparse distance field, 2.3Mb total, 0.1Mb always loaded, 66% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.39.19:086][139]LogMeshUtilities: Finished distance field build in 2.2s - 126x126x126 sparse distance field, 1.5Mb total, 0.1Mb always loaded, 40% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.39.20:461][222]LogMeshUtilities: Finished distance field build in 3.5s - 126x126x126 sparse distance field, 2.3Mb total, 0.1Mb always loaded, 65% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.39.22:504][344]LogMeshUtilities: Finished distance field build in 3.1s - 126x126x126 sparse distance field, 1.9Mb total, 0.1Mb always loaded, 52% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.39.22:778][361]LogMeshUtilities: Finished distance field build in 3.3s - 126x126x126 sparse distance field, 2.0Mb total, 0.1Mb always loaded, 57% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.39.24:674][475]LogMeshUtilities: Finished distance field build in 2.1s - 126x126x126 sparse distance field, 1.4Mb total, 0.1Mb always loaded, 39% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.39.25:585][529]LogMeshUtilities: Finished distance field build in 3.0s - 126x126x126 sparse distance field, 1.8Mb total, 0.1Mb always loaded, 50% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.39.27:470][642]LogMeshUtilities: Finished distance field build in 2.8s - 126x126x126 sparse distance field, 1.6Mb total, 0.1Mb always loaded, 45% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.39.27:796][662]LogMeshUtilities: Finished distance field build in 3.1s - 126x126x126 sparse distance field, 1.9Mb total, 0.1Mb always loaded, 52% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.39.30:066][798]LogMeshUtilities: Finished distance field build in 2.5s - 126x126x126 sparse distance field, 1.6Mb total, 0.1Mb always loaded, 45% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.39.30:502][824]LogMeshUtilities: Finished distance field build in 2.9s - 126x126x126 sparse distance field, 2.0Mb total, 0.1Mb always loaded, 55% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.39.32:887][967]LogMeshUtilities: Finished distance field build in 2.6s - 126x126x126 sparse distance field, 1.7Mb total, 0.1Mb always loaded, 46% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.39.33:089][979]LogMeshUtilities: Finished distance field build in 2.8s - 126x126x126 sparse distance field, 1.8Mb total, 0.1Mb always loaded, 50% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.39.34:579][ 69]LogMeshUtilities: Finished distance field build in 1.6s - 126x126x126 sparse distance field, 2.0Mb total, 0.1Mb always loaded, 55% occupied, 96 triangles, StaticMesh_HLOD0_Instancing_1
+[2023.06.16-03.45.00:371][611]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.16-03.45.00:371][611]LogWorld: BeginTearingDown for /Temp/UEDPIE_0_Untitled_1
+[2023.06.16-03.45.00:381][611]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2023.06.16-03.45.00:381][611]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.16-03.45.00:381][611]LogContentBundle: [Container: Untitled_1] Deleting container.
+[2023.06.16-03.45.00:395][611]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.16-03.45.00:399][611]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.16-03.45.00:408][611]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.16-03.45.00:409][611]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.06.16-03.45.00:411][611]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.06.16-03.45.00:427][611]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2023.06.16-03.45.00:437][612]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2023.06.16-03.45.15:365][427]LogSlate: Window 'Source Control Login' being destroyed
