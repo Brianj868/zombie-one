@@ -1,0 +1,14 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\brian\\onedrive\\documents\\github\\zombie-one\\zombieone\\source\\zombieone\\zombieone.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\brian\\onedrive\\documents\\github\\zombie-one\\zombieone\\intermediate\\build\\win64\\zombieoneeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\brian\\onedrive\\documents\\github\\zombie-one\\zombieone\\intermediate\\build\\win64\\unrealeditor\\development\\zombieone\\definitions.zombieone.h",
+            "c:\\users\\brian\\onedrive\\documents\\github\\zombie-one\\zombieone\\source\\zombieone\\zombieone.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
